@@ -2,7 +2,7 @@ dependencies = ["torch"]
 
 import torch
 
-from unet import UNet
+from model1 import UNet
 
 
 def unet(pretrained=False, **kwargs):
