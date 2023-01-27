@@ -5,7 +5,7 @@ import torch
 from model1 import UNet
 
 
-def unet(pretrained=False, **kwargs):
+def model1(pretrained=False, **kwargs):
     """
     U-Net segmentation model with batch normalization for biomedical image segmentation
     pretrained (bool): load pretrained weights into the model
